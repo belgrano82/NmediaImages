@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FullscreenImageFragment">
+
+    <ImageView
+        android:id="@+id/fullscreenImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="#000"
+        android:contentDescription="@string/fullscreen_image"
+        tools:srcCompat="@tools:sample/avatars" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autoLink="web"-->
+<!--        android:lineSpacingMultiplier="1.5"-->
+<!--        android:paddingTop="@dimen/common_spacing"-->
+<!--        android:paddingBottom="16dp"-->
+<!--        tools:text="@sample/posts.json/data/content" />-->
+
+</FrameLayout>
